@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bg_timing"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="@string/tab_timing"
+            android:textColor="@color/tab_timing"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:paddingLeft="650dp"
+            android:text="通风定时"
+            android:textColor="#F6F6F7"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/im_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="720dp"
+            android:background="@drawable/add"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/main_bottome_switcher_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#272d3c"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="状态显示"
+                android:textColor="@color/main_bottom_tv_color"
+                android:textSize="18dp" />
+
+            <ImageView
+
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/statexml" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/lampxml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="控制中心"
+                android:textColor="@color/main_bottom_tv_color"
+                android:textSize="18dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/curtainxml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="个人中心"
+                android:textColor="@color/main_bottom_tv_color"
+                android:textSize="18dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/windowxml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="服务"
+                android:textColor="@color/main_bottom_tv_color"
+                android:textSize="18dp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/titlebbj"
+        android:orientation="horizontal">
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:background="@drawable/statebj">
+
+
+
+        <LinearLayout
+
+            android:layout_width="1100dp"
+            android:layout_height="450dp"
+            android:background="@drawable/curtainbj"
+            android:orientation="horizontal"
+            android:layout_marginEnd="81dp"
+            android:layout_marginTop="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+            <RadioGroup
+                android:id="@+id/rg_content"
+                android:layout_marginTop="0.2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:id="@+id/rb_zd"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/lamp_xml"
+                    android:button="@null"
+                    android:text="主灯"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_td"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/lamp_two_xml"
+                    android:button="@null"
+                    android:text="筒灯"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_yd"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/lamp_two_xml"
+                    android:button="@null"
+                    android:text="夜灯"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+                <RadioButton
+                    android:id="@+id/rb_fwd"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/lamp_two_xml"
+                    android:button="@null"
+                    android:text="氛围灯"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#fff"
+
+                />
+                <ui.view.NoScrollViewPager
+                    android:id="@+id/vp_content"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"/>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

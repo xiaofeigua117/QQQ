@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/state_pre" android:state_checked="true"/>
+<item android:drawable="@drawable/state" />
+    <!--可用 白色  不可用 灰色-->
+    </selector>
